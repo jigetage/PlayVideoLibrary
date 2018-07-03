@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{95bfc00f-36ad-45d1-a5eb-0273de20af50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\libcurl">
+      <UniqueIdentifier>{aab9fe26-e718-4d19-a089-7c31065ce8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ezviz">
+      <UniqueIdentifier>{9200e4a0-d8fc-4f8f-ad74-9158f6db7eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\json">
+      <UniqueIdentifier>{87943810-cbb3-46a1-93c1-a914baf8c665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log">
+      <UniqueIdentifier>{33d7863d-8490-4e2e-b51b-616ef59d1183}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\configmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlayVideoLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curl\curl.h">
+      <Filter>include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curl\curlver.h">
+      <Filter>include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curl\easy.h">
+      <Filter>include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curl\mprintf.h">
+      <Filter>include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curl\multi.h">
+      <Filter>include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curl\stdcheaders.h">
+      <Filter>include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curl\system.h">
+      <Filter>include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\curl\typecheck-gcc.h">
+      <Filter>include\libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ezviz\INS_ErrorCode.h">
+      <Filter>include\ezviz</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ezviz\OpenNetStreamDefine.h">
+      <Filter>include\ezviz</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ezviz\OpenNetStreamError.h">
+      <Filter>include\ezviz</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ezviz\OpenNetStreamInterFace.h">
+      <Filter>include\ezviz</Filter>
+    </ClInclude>
+    <ClInclude Include="include\global.hxx">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\assertions.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\autolink.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\config.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\features.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\forwards.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\json.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\reader.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\value.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\version.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\writer.h">
+      <Filter>include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EzvizOpsInvoker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\AbortAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Appender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\AppendersFactory.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\AppenderSkeleton.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\BasicConfigurator.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\BasicLayout.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\BufferingAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Category.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\CategoryStream.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\config-MinGW32.h">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\config-openvms.h">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Configurator.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\config-win32.h">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\config-win32-stlport-boost.h">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\convenience.h">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\DailyRollingFileAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Export.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\FactoryParams.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\FileAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Filter.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\FixedContextCategory.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\HierarchyMaintainer.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\IdsaAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Layout.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\LayoutAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\LayoutsFactory.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\LevelEvaluator.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\LoggingEvent.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Manipulator.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\NDC.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\NTEventLogAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\OstreamAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\PassThroughLayout.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\PatternLayout.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Portability.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Priority.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\PropertyConfigurator.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\RemoteSyslogAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\RollingFileAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\SimpleConfigurator.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\SimpleLayout.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\SmtpAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\StringQueueAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\SyslogAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\TimeStamp.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\TriggeringEventEvaluator.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\TriggeringEventEvaluatorFactory.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4cpp\Win32DebugAppender.hh">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LogOperate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\configmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayVideoLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EzvizOpsInvoker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LogOperate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\log4cpp\.cvsignore">
+      <Filter>include\log</Filter>
+    </None>
+    <None Include="include\log4cpp\Makefile.am">
+      <Filter>include\log</Filter>
+    </None>
+    <None Include="include\log4cpp\Makefile.in">
+      <Filter>include\log</Filter>
+    </None>
+  </ItemGroup>
+</Project>
